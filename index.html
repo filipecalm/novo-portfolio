@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Portfolio Staart/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
+  <title>Página do Filipe</title>
+</head>
+
+<body>
+  <div  id="title" class="nav">
+    <div class="nav-links">
+      <a href="#title">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+    </div>
+  </div>
+  <section class="main items-center">
+    <img class="avatar" src="/Portfolio Staart/images/avatar.jpeg" alt="Minha Foto">
+    <div>
+      <h1 class="main-title">Olá, eu sou o Filipe Carneiro, Desenvolvedor Front-End</h1>
+      <p class="main-description">Sou completamente apaixonado por tecnologia e quero deixar minha marca no mundo
+        através dela.</p>
+      <a class="button" target="_newtab" href="/Portfolio Staart/images/cv.jpg">Faça o download do meu CV</a>
+      <a class="button" target="_newtab" href="https://www.linkedin.com/in/filipecalm/">Meu LinkedIn</a>
+    </div>
+  </section>
+  <div class="about">
+    <section>
+      <h2 id="sobre"> Sobre </h2>
+      <p class="description">Lorem ipsum dolor ipsum dolor sit amet consectetur adipisicing elit. At obcaecati corporis
+        esse ab reiciendis ad odit beatae nemo voluptates voluptas quisquam deleniti quae natus recusandae alias quae
+        natus incidunt enim, fugit velit.</p>
+    </section>
+  </div>
+  <section>
+    <h2 id="projetos">Projetos</h2>
+    <div class="project items-center">
+      <img class="project-image" src="/Portfolio Staart/images/ecommerce.jpg" alt="imagem de projeto" />
+      <div>
+        <h3 class="project-title">
+          E-commerce
+        </h3>
+        <p class="description">Implementação de um e-commerce com um modelo de recompensa. A cada R$1,00 gasto gera-se 1
+          ponto de recompensa. A API recebe a requisição através do token de sessão do usuário que faz compra, e retorna
+          a quantidade de pontos acumulados.
+          Recebe no corpo da requisição a quantidade de pontos que deseja debitar, e havendo saldo suficiente, faz o
+          débito e retorna o saldo remanescente. Há também um serviço que ouve os eventos de alteração de status das
+          compras, e sempre que o novo status é "pagamento aprovado" ou "cancelado", a pontuação referente à compra é
+          creditada ou removida do saldo do usuário.</p>
+      </div>
+    </div>
+
+    <div class="project items-center">
+      <img class="project-image" src="/Portfolio Staart/images/lanterninha.jpg" alt="imagem de projeto" />
+      <div>
+        <h3 class="project-title">
+          Flashlight
+        </h3>
+        <p class="description">Projeto de app de lanterna para Android implementado em React Native. Quando o usuário
+          clica na tela, a lanterna traseira do smartphone é ativada, iluminando o ambiente. Ocorre uma animação na tela
+          demonstrada na figura.</p>
+      </div>
+    </div>
+
+    <div class="project items-center">
+      <img class="project-image" src="/Portfolio Staart/images/instagram-clone.jpg" alt="imagem de projeto" />
+      <div>
+        <h3 class="project-title">
+          Clone do Instagram
+        </h3>
+        <p class="description">Implementação do CLONE da página inicial de login do Instagram com HTML e CCS.</p>
+      </div>
+    </div>
+  </section>
+  <hr>
+</body>
+<footer>
+  
+  <div class="footer-social items-center">
+    <a target="newtab" href="https://www.instagram.com/filipe_cdealmeida/">
+      <img class="img-social" src="/Portfolio Staart/images/instagram-logo.png" alt="">
+    </a>
+    <a target="newtab" href="https://www.linkedin.com/in/filipecalm/">
+      <img class="img-social" src="/Portfolio Staart/images/linkedin-logo.jpg" alt="">
+    </a>
+    <a target="newtab" href="https://www.facebook.com/filipecalmeida/">
+      <img class="img-social" src="/Portfolio Staart/images/facebook-logo.jpg" alt="">
+    </a>
+    <a target="newtab" href="https://twitter.com/filipecalm">
+      <img class="img-social" src="/Portfolio Staart/images/twitter-logo.jpg" alt="">
+    </a>    
+  </div>
+  <p class="items-center">feito com &#9829 por &copy;Filipe Carneiro</p>
+</footer>
+
+</html>
