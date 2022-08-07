@@ -111,11 +111,14 @@ footer {
 .footer-social {
   display: flex;
   gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 @media(max-width:1200px) {
   .items-center {
     flex-direction: column;
+    justify-content: flex-end;
   }
   footer,
   section{
@@ -142,5 +145,10 @@ footer {
   .avatar {
     width: 18rem;
     height: 18rem;
+  }
+
+  .button {
+    display: grid;
+    margin-top: 1rem;
   }
 }
