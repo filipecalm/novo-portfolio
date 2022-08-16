@@ -27,6 +27,11 @@ h2 {
   font-weight: 700;
 }
 
+.dev {
+  font-size: 3.7rem;
+  font-weight: 700;
+}
+
 .about {
   background-color: #162340;
 }
@@ -124,6 +129,13 @@ h2 {
   width: 4rem;
   height: 4rem;
   border-radius: 15px;
+}
+
+.img-github{
+    margin: 0;
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 100%;
 }
 
 footer {
