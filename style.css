@@ -116,10 +116,15 @@ h2 {
 
 .project-title {
   font-size: 3rem;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color:blanchedalmond;
 }
 
 .description {
   font-size: 1.6rem;
+  font-weight: 500;
   margin: 4rem 0;
   text-align: justify;
 }
