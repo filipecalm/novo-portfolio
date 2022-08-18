@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.inspecionar {
+  border: 5px solid red;
+}
+
 html {
   background-color: #1E1E1E;
   color: blanchedalmond;
@@ -34,10 +38,6 @@ h2 {
 
 .about {
   background-color: #162340;
-}
-
-.inspecionar {
-  border: 5px solid red;
 }
 
 .items-center {
@@ -94,7 +94,7 @@ h2 {
   transition: .3s ease all;
 }
 
-.button:hover{
+.button:hover {
   background-color:white;
   color:black;
 }
@@ -133,14 +133,7 @@ h2 {
   margin: 0;
   width: 4rem;
   height: 4rem;
-  border-radius: 15px;
-}
-
-.img-github{
-    margin: 0;
-    width: 4.4rem;
-    height: 4.4rem;
-    border-radius: 100%;
+  border-radius: 100%;
 }
 
 footer {
@@ -159,6 +152,7 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
   }
+  
   footer,
   section{
     padding: 5rem;
