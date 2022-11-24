@@ -126,11 +126,20 @@ h2 {
   color:blanchedalmond;
 }
 
+.project-title:hover {
+  cursor: pointer;
+  color: white;
+}
+
 .description {
   font-size: 1.6rem;
   font-weight: 500;
   margin: 4rem 0;
   text-align: justify;
+}
+
+.repositorio {
+  display: inline-block;
 }
 
 /* FOOTER */
